@@ -15,6 +15,7 @@ import regexpPlugin from 'rollup-plugin-regexp'
 import * as mdicons from '@mdi/js'
 import browserslist from 'browserslist'
 
+
 const mdi: Record<string, string> = {}
 Object.keys(mdicons).forEach((key) => {
   const value = (mdicons as Record<string, string>)[key]
